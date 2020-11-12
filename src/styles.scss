@@ -1,0 +1,147 @@
+$bg-color: #1e1e1e;
+$input-color: #ffffff;
+$button-color: #8a8a8a;
+$button-bg: #343434;
+body{
+  width: 300px;
+  font-family: "Baloo 2";
+  font-weight: 500;
+  margin: 0px;
+  border: 1px solid #4b4c4c;
+  border-radius: 10px;
+}
+p{
+  font-size: 4em;
+  font-family: "Baloo 2";
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+  padding-right: 16px;
+  text-align: right;
+  margin: 0px;
+  color: $input-color;
+  background-color: $bg-color;
+}
+.separator{
+  height: 24px; 
+  background-color: $bg-color;
+  padding-bottom: 8px;
+}
+.main{
+  height: 450px !important;
+}
+
+.flex{
+  display: flex;
+  align-content: space-between;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-row{
+  flex-direction: row;
+  align-items: stretch;
+  margin: 8px 0px;
+}
+
+.row-black{
+  background-color: $bg-color;
+}
+
+input{
+  font-family: "Baloo 2";
+  font-size: 1.5em;
+  border: none;
+  background-color: $bg-color;
+  color: #9a9b9b;
+  padding-right: 16px;
+  text-align: right;
+}
+input::placeholder{
+  font-family: "Baloo 2";
+  color: #9a9b9b;
+}
+input:focus{
+  outline: none!important;
+}
+
+button{
+  width: 90%;
+  flex: 1;
+  font-family: "Baloo 2";
+  font-size: 1.5em;
+  border: none;
+  background: $bg-color;
+  color: $button-color;
+  border-radius: 25px;
+  align-self: center;
+}
+
+button:focus{
+  outline: none;
+  border: none;
+}
+
+
+button:active{
+  background-color: #efefef;
+}
+
+.functions{
+  width: 60px;
+  color: $input-color;
+  background-color: $button-bg;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+.add{
+  width: 45px;
+  color: white;
+  background-color: #f91300;
+}
+.add:active{
+  background-color: #f91500a8 !important;
+}
+
+.equal{
+  width: 100px;
+  text-align: center;
+  color: white;
+  background-color: #39b54a;
+  margin-left: 25px;
+}
+.equal:active{
+  background-color: #39b54aa8 !important;
+}
+
+.divide{
+  width: 45px;
+  color: white;
+  background-color: #209045;
+}
+.divide:active{
+  background-color: #209045a8 !important;
+}
+
+.minus{
+  width: 45px;
+  color: white;
+  background-color: #f15a23;
+}
+.minus:active{
+  background-color: #f15a23a8 !important;
+}
+
+.times{
+  margin-left: 12px;
+  width: 45px;
+  color: white;
+  background-color: #ed1e78;
+}
+.times:active{
+  background-color: #ed1e78a8 !important;
+}
+
