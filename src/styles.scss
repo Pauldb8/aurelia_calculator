@@ -2,6 +2,8 @@ $bg-color: #1e1e1e;
 $input-color: #ffffff;
 $button-color: #8a8a8a;
 $button-bg: #343434;
+$button-click: #ffffff99;
+
 body{
   width: 300px;
   font-family: "Baloo 2";
@@ -27,7 +29,7 @@ p{
   padding-bottom: 8px;
 }
 .main{
-  height: 450px !important;
+  //height: 450px !important;
 }
 
 .flex{
@@ -85,7 +87,7 @@ button:focus{
 
 
 button:active{
-  background-color: #efefef;
+  background-color: $button-click;
 }
 
 .functions{
@@ -97,24 +99,29 @@ button:active{
   padding-bottom: 8px;
 }
 
+.numbers{ 
+  width: 60px;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
 .add{
-  width: 45px;
-  color: white;
-  background-color: #f91300;
+  width: 60px;
+  color: $input-color;
+  background-color: $button-bg;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  margin-right: 8px;
 }
 .add:active{
   background-color: #f91500a8 !important;
 }
 
 .equal{
-  width: 100px;
-  text-align: center;
-  color: white;
-  background-color: #39b54a;
-  margin-left: 25px;
-}
-.equal:active{
-  background-color: #39b54aa8 !important;
+ 
+  background-color: #6d6d6d;
 }
 
 .divide{

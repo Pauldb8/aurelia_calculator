@@ -17,43 +17,66 @@
         <button class="functions">+/-</button>
       </div>
       <div style="flex: 1" class="flex flex-column">
-        <button class="times" click.trigger="push('×')">×</button>
+        <button class="functions" click.trigger="push('×')">×</button>
       </div>
     </div>
 
-    <div class="flex flex-row row-black">
-      <button click.trigger="push(1)">1</button>
-      <button click.trigger="push(2)">2</button>
-      <button click.trigger="push(3)">3</button>
+    <div class="flex flex-row">
       <div style="flex: 1" class="flex flex-column">
-        <button class="minus" click.trigger="push('-')">-</button>
+        <button class="numbers" click.trigger="push(7)">7</button>
       </div>
-    </div>
-
-    <div class="flex flex-row row-black">
-      <button click.trigger="push(4)">4</button>
-      <button click.trigger="push(5)">5</button>
-      <button click.trigger="push(6)">6</button>
       <div style="flex: 1" class="flex flex-column">
-        <button class="divide" click.trigger="push('÷')">÷</button>
+        <button class="numbers" click.trigger="push(8)">8</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(9)">9</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="functions" click.trigger="push('-')">-</button>
       </div>
     </div>
 
-    <div class="flex flex-row row-black">
-      <button click.trigger="push(7)">7</button>
-      <button click.trigger="push(8)">8</button>
-      <button click.trigger="push(9)">9</button>
-      <div style="flex: 1;" class="flex flex-column">
-        <button class="add" click.trigger="push('+')">+</button>
+    <div class="flex flex-row">
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(4)">4</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(5)">5</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(6)">6</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="functions" click.trigger="push('÷')">÷</button>
       </div>
     </div>
 
-    <div class="flex flex-row row-black">
-      <button click.trigger="push(0)">0</button>
-      <button>.</button>
-      <div style="flex: 2.15;" class="flex flex-column">
-        <button class="equal" style="align-self: center">=</button>
+    <div class="flex flex-row">
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(1)">1</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(2)">2</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push(3)">3</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="functions" click.trigger="push('+')">+</button>
       </div>
     </div>
+
+    <div class="flex flex-row">
+      <div style="flex: 2" class="flex flex-column">
+        <button style="width: 100%; margin-left:16px; " class="numbers" click.trigger="push(0)">0</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="numbers" click.trigger="push('.')">.</button>
+      </div>
+      <div style="flex: 1" class="flex flex-column">
+        <button class="equal functions">=</button> 
+      </div>
+    </div>
+
   </div>
 </template>
